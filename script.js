@@ -8,4 +8,4 @@ function daysOfAYear(value) {
 	}
 }
 let value=parseInt(promt("Enter a year"));
-console.log(daysOfAYear(value))
+alert(daysOfAYear(value));
