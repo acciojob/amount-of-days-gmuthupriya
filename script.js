@@ -7,4 +7,5 @@ function daysOfAYear(value) {
 		return 365;
 	}
 }
+let value=parseInt(promt("Enter a year"));
 console.log(daysOfAYear(value))
