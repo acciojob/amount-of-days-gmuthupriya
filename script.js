@@ -1,6 +1,6 @@
 //your JS code here. If required.
 function checkisLeapyear(year) {
-	if(year<1)||year(>9999)
+	if(year<1||year>9999)
 	{
 		throw new Error("Year should be within 1 to 9999")
 	}
