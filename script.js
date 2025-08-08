@@ -8,3 +8,6 @@ function checkisLeapyear(year) {
 const isLeap = (year%4===0)&&(year%100!=0) || (year%400===0)
 return isLeap ? 365 : 366;
 }
+console.log(checkisLeapyear(2000));
+console.log(checkisLeapyear(1900));
+console.log(checkisLeapyear(2024));
