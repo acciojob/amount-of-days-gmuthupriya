@@ -5,7 +5,7 @@ function checkisLeapyear(year) {
 		throw new Error("Year should be within 1 to 9999")
 	}
 
-const isLeap = (year%4===0)&&(year%100!=0) || (year%400===0)
+const isLeap = (year%4===0 && year%100!=0) || (year%400===0)
 return isLeap ? 365 : 366;
 }
 console.log(checkisLeapyear(2000));
